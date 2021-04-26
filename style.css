@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+    display: block;
+    border-bottom: 8px solid #222;
+}
+
+.bgfoto {
+    background-image: url("./netflix-fundo.jpg");
+    background-color: #cccccc; 
+    height: 690px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.pretofundo {
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 100%;
+}
+
+.headerL {
+    color: red;
+    display: inline-block;
+    width: fit-content;
+    margin-right: 63%;
+    margin-left: 50px;
+}
+
+.headerR {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+#logo {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.headerR span {
+    margin-right: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+#btnlang {
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 6px 4px;
+}
+
+#btnentrar {
+    padding: 6px 18px;
+    border-radius: 4px;
+    background-color: rgb(216, 0, 0);
+}
+
+ /* -- SECTION --  */
+
+section {
+    color: white;
+    display: block;
+    margin: 150px 350px;
+    width: max-content;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#pronto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: .7em;
+}
+
+#email {
+    padding: 15px;
+    width: 400px;
+    line-height: 30px;
+    border: none;
+    display: inline-block;
+    margin-right: -6px;
+}
+
+#submit a {
+    background-color:  rgb(216, 0, 0);
+    padding: 15px 20px;
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+    margin-top: 15px;
+}
+
+/* -- Segunda section --  */
+
+.divsect{
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.container2 {
+    width: 80%;
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.text-left {
+    width: 50%;
+    display: inline-block;
+}
+
+.text-inside {
+    position: absolute;
+    width: 50%;
+    top: 50px;
+}
+
+.text-right {
+    width: 49%;
+    display: inline-block;
+}
+
+.text-right img {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.text-left h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-top: 50px;
+}
+
+.text-left p {
+    font-weight: 600;
+    font-size: .9rem;
+    margin-top: 15px;
+}
+
+/* -- SECTION 2 -- */
+
+.divsect2 {
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding-bottom: 40px;
+}
+
+.container3 {
+    width: 80%;
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.text-left2 {
+    width: 50%;
+    display: inline-block;
+}
+
+#phonefoto {
+    width: 500px;
+    margin-top: -50px;
+    margin-left: -70px;
+}
+
+.text-right2 {
+    width: 49%;
+    display: inline-block;
+}
+
+.text-inside2 {
+    position: absolute;
+    width: 50%;
+    top: 0px;
+}
+
+.text-inside2 h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-top: 50px;
+}
+
+.text-inside2 p {
+    font-weight: 600;
+    font-size: .9rem;
+    margin-top: 15px;
+}
+
+.container-box-phone {
+    margin-top: -130px;
+}
+
+.box-phone {
+    position: relative;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 32%;
+}
+
+.box-phone p {
+    display: block;
+    font-size: .6rem;
+}
+
+#fotoboxphone {
+    width: 50px;
+}
+
+.img-box-phone {
+    display: inline-block;
+}
+
+.emoji-box {
+    display: inline-block; 
+    position: absolute;  
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+.text-box-phone {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px; 
+}
+
+#strng {
+    font-weight: 700;
+}
+
+#dwnld {
+    color: rgb(49, 49, 250);
+}
+
+/* -- Section 3 --  */
+
+.divsect3 {
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.container4 {
+    width: 80%;
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.text-left3 {
+    width: 50%;
+    display: inline-block;
+    color: white;
+}
+
+.text-right3 {
+    width: 49%;
+    display: inline-block;
+}
+
+.text-inside3 {
+    position: absolute;
+    width: 50%;
+    top: 50px;
+}
+
+.text-inside3 h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-top: 50px;
+}
+
+.text-inside3 p {
+    font-weight: 600;
+    font-size: .9rem;
+    margin-top: 15px;
+}
+
+.img-inside img {
+    width: 500px;
+    padding-left: 100px;
+}
+
+/* -- section FAQ --  */
+
+.div-faq {
+    color: white;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.faq-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.faq-container h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.faq-blocks {
+    margin-bottom: 80px;
+}
+
+.block-faq {
+    font-size: .9rem;
+    font-weight: 600;
+    background-color: #222;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+    position: relative;
+}
+
+.block-faq p {
+    display: inline-block;
+}
+
+.block-faq span {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: -1px;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.login-bottom {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.login-bottom p {
+    font-size: .7rem;
+}
+
+/* -- FOOTER -- */
+
+footer {
+    color: #222;
+}
+
+footer a{
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+
+.footer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer div p ,footer div a {
+    font-size: 0.5rem;
+}
+
+.duvidas {
+    margin-top: 60px;
+}
+
+.duvidas p {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(124, 124, 124);
+}
+
+.linksextras ul{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.linksextras ul li{
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    padding-right: 12px;
+}
+      
+#btnlang2 {
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 0.6rem;
+    color: rgb(124, 124, 124);
+    padding: 8px 4px;
+}
+
+.copyright p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(124, 124, 124);
+}
